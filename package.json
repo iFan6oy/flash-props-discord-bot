@@ -1,0 +1,27 @@
+{
+  "name": "flash-props-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that posts live sports player props from the Flash Props API. Fork it, add your keys, deploy in 5 minutes.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "register": "tsx src/deploy-commands.ts",
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.0",
+    "@types/node-cron": "^3.0.11",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  }
+}
