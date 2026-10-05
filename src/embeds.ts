@@ -65,9 +65,9 @@ export function aboutEmbed(): EmbedBuilder {
 				'**Commands**',
 				'`/board sport:` — the prop board for a sport',
 				'`/props player:` — find a player’s props',
-				'`/movers` — biggest line movers _(Pro key)_',
+				'`/movers` — biggest line movers _(paid key)_',
 				'',
-				'A **free** key covers the current in-season sport. **Starter** unlocks every sport including esports; **Pro** adds line history and movers.',
+				'A **free** key is for evaluation and sees every active sport, esports included. Paid plans raise the limits and add line movement and history.',
 				'',
 				`**Get your own free key** → ${SIGNUP_URL}`,
 				'Then set `FLASH_PROPS_API_KEY` and run your own copy. Fork the starter: this bot is open source.'

@@ -16,7 +16,7 @@ Covers the props board across MLB, NFL, NBA, NHL, NCAA, soccer, tennis, and espo
 |---|---|
 | `/board sport:` | The player-prop board for a sport, with optional `stat:` filter |
 | `/props player:` | Find one player's props (optionally scoped to a `sport:`) |
-| `/movers` | The biggest line movers in a window (needs a **Pro** API key) |
+| `/movers` | The biggest line movers in a window (needs a paid API key) |
 | `/flashprops` | About + where to get a free key |
 | Daily auto-post | Optional scheduled board post to a channel (off by default) |
 
@@ -41,7 +41,7 @@ npm install
 
 ### 3. Get a free Flash Props key
 
-Grab one in about 30 seconds at **https://api.flashodds.live**. No card required. A free key covers the current in-season sport, Starter unlocks every sport including esports, and Pro adds line history and movers.
+Grab one in about 30 seconds at **https://api.flashodds.live**. No card required. Free is for evaluation (300 requests/day, 10/min, 15 rows per scan) and sees every active sport, esports included. Builder ($19/mo) is where recurring production use starts, and line movement and history need a paid key (limited on Builder, full on Pro). Coverage changes through the season, so check `GET /api/v1/sports` for what is live, and see the current plans at https://api.flashodds.live/api/v1/pricing.
 
 ### 4. Configure
 
