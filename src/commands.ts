@@ -22,7 +22,7 @@ export const commandData = [
 		.addStringOption((o) => o.setName('sport').setDescription('Sport to search (defaults to the in-season sport)')),
 	new SlashCommandBuilder()
 		.setName('movers')
-		.setDescription('Biggest line movers (requires a Pro API key)')
+		.setDescription('Biggest line movers (requires a paid API key)')
 		.addStringOption((o) => o.setName('sport').setDescription('Limit to one sport'))
 		.addStringOption((o) => o.setName('since').setDescription('Lookback window: 6h, 24h, 3d')),
 	new SlashCommandBuilder().setName('flashprops').setDescription('About this bot and how to get a free API key')
